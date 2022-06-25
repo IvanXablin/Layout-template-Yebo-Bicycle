@@ -98,8 +98,8 @@
 
 
 .footer {
-    display: flex;
     height: 250px;
+    display: flex;
     background-color: #f7f7f7;
     justify-content: center;
     align-items: center;
@@ -128,8 +128,22 @@
     color: #848789;
 }
 
+.link-media {
+    padding-right: 110px;
+}
+
 .link-media a {
-    padding-left: 10px;
+    padding-left: 15px;
+}
+
+.by-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.by-info img {
+    padding-left: 9px;
 }
 
 
