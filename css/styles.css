@@ -96,6 +96,33 @@
     padding-top: 35px;
 }
 
+.shop {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282f35;
+}
+
+.shop button {
+    width: 300px;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(255,255,255,0.0);
+    border: 1px solid rgba(255,255,255,0.49);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+}
+
+.shop button:hover { 
+    color: #57cea0;
+    border: 1px solid #57cea0;
+}
+
 .mailing {
     width: 100%;
     height: 469px;
