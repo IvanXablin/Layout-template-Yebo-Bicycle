@@ -99,8 +99,58 @@
 
 .content__work {
     display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.content__work-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 600px;
+    background: url("../media/img/rectangle_1_54.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.content__work-info {
+    width: 30%;
+    height: 600px;
+}
+
+.info-text {
+    display: flex;
     flex-direction: column;
-    height: 1810px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.info-text p {
+    padding-top: 31px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #353738;
+}
+
+.info-text span {
+    width: 74.67%;
+    height: 134px;
+    padding-top: 26px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #848789;
+}
+
+.info-image {
+    width: 100%;
 }
 
 .content__shop {
